@@ -30,10 +30,12 @@ Tough too, I wasn't too sure by what angle I wanted to do it. My gut told me if 
 
 If you did it yourself, I hope you were not as devastated as myself when we both read the part 2 problem. My intuition was kinda wrong: I approach the problem by identifying the numbers first, then looking for a symbol around. Now, it revolves around the symbol... Let's see if I can find something clever to solve this without rewritting everything.
 
-Alright, I'm glad I've found something quick to do. Not very clean but it's late already. I've basically used an hashmap and stored all part ids, indexed by the symbol position.
+[...]
+
+Alright, I'm glad I've found something quick to do. Not very clean but it's late already. I've basically used an hashmap and stored all part ids, indexed by the symbol position. I've also used for the first time the [ref](https://doc.rust-lang.org/stable/reference/patterns.html#identifier-patterns) keyword! Glad I'm learning.
 
 By the way, I've just realized while typing this I actually did not follow the wording:
 
 `A gear is any * symbol that is adjacent to exactly two part numbers. Its gear ratio is the result of multiplying those two numbers together.`
 
-I did not check whether the symbol was a `*` or not, but still got the correct result. Extremely lucky with the input, or bug in the input generation?
+I did not check whether the symbol was a `*`, but still got the correct result. Extremely lucky with the input, or bug in the input generation?
