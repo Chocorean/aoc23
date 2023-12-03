@@ -19,3 +19,21 @@ Also, I should have trusted myself and go for this kind of implementation straig
 Surprisingly easier than day 1, I finally used my beloved regexes. Looking at the leaderboard, I would be very curious to see how people send this in 90 seconds.
 
 I'm glad I've started AoC this year already, because I've discovered non-capturing groups (`(?:)` pattern) in a failed attempt for day 1, and I've already used it for day 2. My only wish is I was faster than that (I took 25 mins), but that is still okay I guess.
+
+## Day 3
+
+### Part 1
+
+Tough too, I wasn't too sure by what angle I wanted to do it. My gut told me if I had it right, the part two would be easy. Let's see if I can do this! (I consider myself usually bad at problem solving on-sight)
+
+### Part 2
+
+If you did it yourself, I hope you were not as devastated as myself when we both read the part 2 problem. My intuition was kinda wrong: I approach the problem by identifying the numbers first, then looking for a symbol around. Now, it revolves around the symbol... Let's see if I can find something clever to solve this without rewritting everything.
+
+Alright, I'm glad I've found something quick to do. Not very clean but it's late already. I've basically used an hashmap and stored all part ids, indexed by the symbol position.
+
+By the way, I've just realized while typing this I actually did not follow the wording:
+
+`A gear is any * symbol that is adjacent to exactly two part numbers. Its gear ratio is the result of multiplying those two numbers together.`
+
+I did not check whether the symbol was a `*` or not, but still got the correct result. Extremely lucky with the input, or bug in the input generation?
