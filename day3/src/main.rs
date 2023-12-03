@@ -13,7 +13,7 @@ fn main() {
 fn is_symbol(x: usize, y: usize, lines: &Vec<&str>) -> bool {
     let line = *lines.get(x).unwrap();
     println!("{line} {} {y}", line.len());
-    let char = line.get(y as usize..(y + 1) as usize).unwrap(); // works since we know the input
+    let char = line.get(y..(y + 1)).unwrap(); // works since we know the input
 
     // println!("  {char}");
     if char.parse::<u8>().is_ok() {
@@ -100,7 +100,7 @@ fn solve(content: &String, part2: bool) {
         let sum: u64 = parts
             .values()
             .filter(|&v| v.len() == 2)
-            .map(|v| v.iter().map(|&n| n).reduce(|a, b| a * b).unwrap())
+            .map(|v| v.iter().copied().reduce(|a, b| a * b).unwrap())
             .sum();
         println!("{sum}");
     }
