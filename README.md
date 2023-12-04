@@ -39,3 +39,11 @@ By the way, I've just realized while typing this I actually did not follow the w
 `A gear is any * symbol that is adjacent to exactly two part numbers. Its gear ratio is the result of multiplying those two numbers together.`
 
 I did not check whether the symbol was a `*`, but still got the correct result. Extremely lucky with the input, or bug in the input generation?
+
+## Day 4
+
+Pretty chill, I failed last night to solve part 2, and after refactoring this morning, I've tried again a value I thought I've already checked yesterday just in case, and I validated the day.
+
+Once again, when I say I suck sometimes at making a solution for a problem: I originally started to store the copies of each tickets in an hashmap instead of a vec. Why? What's the feature I was needing in that case? None, and a vec was just the right tool for this.
+
+Also, I should test my stuff more frequently. I'm glad I wrote a small unit test here because the feedback of the test gave me instantly some confidence. I'll try to write more testing cases for the following days too.
