@@ -47,3 +47,9 @@ Pretty chill, I failed last night to solve part 2, and after refactoring this mo
 Once again, when I say I suck sometimes at making a solution for a problem: I originally started to store the copies of each tickets in an hashmap instead of a vec. Why? What's the feature I was needing in that case? None, and a vec was just the right tool for this.
 
 Also, I should test my stuff more frequently. I'm glad I wrote a small unit test here because the feedback of the test gave me instantly some confidence. I'll try to write more testing cases for the following days too.
+
+## Day 5
+
+First part was trivial, second part made my laptop crashed. I was not expecting high volumes of computation to happen already! The mistake is I store data for every seeds, which becomes soon out of control.
+
+Hell yeah. After struggling so much (my brain just stops working when it comes to [sparse signals](https://github.com/usnistgov/ActEV_Scorer/blob/master/lib/sparse_signal.py)), I managed to solve today's challenge by working with ranges instead of numbers. I was afraid/excited [it would take ages to compute](https://www.reddit.com/r/adventofcode/comments/18b8r5x/2023_day_5_part_2rust_when_you_have_32_cores/), because I then may have to use [rayon](https://docs.rs/rayon/latest/rayon/) for the first time, but it ended up yielding instantly the answer. Looking forward for tomorrow!
