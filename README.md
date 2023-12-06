@@ -53,3 +53,9 @@ Also, I should test my stuff more frequently. I'm glad I wrote a small unit test
 First part was trivial, second part made my laptop crashed. I was not expecting high volumes of computation to happen already! The mistake is I store data for every seeds, which becomes soon out of control.
 
 Hell yeah. After struggling so much (my brain just stops working when it comes to [sparse signals](https://github.com/usnistgov/ActEV_Scorer/blob/master/lib/sparse_signal.py)), I managed to solve today's challenge by working with ranges instead of numbers. I was afraid/excited [it would take ages to compute](https://www.reddit.com/r/adventofcode/comments/18b8r5x/2023_day_5_part_2rust_when_you_have_32_cores/), because I then may have to use [rayon](https://docs.rs/rayon/latest/rayon/) for the first time, but it ended up yielding instantly the answer. Looking forward for tomorrow!
+
+## Day 6
+
+Surprised by the size of the input! Let's see what surprises it hides...
+
+Seems today was just an easy and fun day: and we won the race! I've learnt about kerning.
