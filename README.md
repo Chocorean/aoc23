@@ -59,3 +59,13 @@ Hell yeah. After struggling so much (my brain just stops working when it comes t
 Surprised by the size of the input! Let's see what surprises it hides...
 
 Seems today was just an easy and fun day: and we won the race! I've learnt about kerning.
+
+## Day 7
+
+First day I'm late. I should stop doing AoC in the morning because it fucks the rest of my day if I fail.
+
+My main mistake for day 1 was implementing features that where not required (I always think I understand the problem but nope). Eventually, I also noticed my model was bad so I rewrote it (twice and still unhappy). For step 2 I was too lazy to do it well and I broke step 1.
+
+The good thing about day 7 is, I wrote a lot of tests because nothing was working properly.
+
+Time to move on day 8, and I'm scared...
