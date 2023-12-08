@@ -69,3 +69,15 @@ My main mistake for day 1 was implementing features that where not required (I a
 The good thing about day 7 is, I wrote a lot of tests because nothing was working properly.
 
 Time to move on day 8, and I'm scared...
+
+## Day 8
+
+Step 1 was fun and easy, and I'm glad I was able to correctly use lifetimes for once. Making progress!
+
+Step 2 seems not that bad... And I was wrong again. After implementing my first solution, I understood it's one of these problems where you have to be smart, because the number of iterations is way to high. The problem statement was also suggesting it (`It's going to take significantly more steps to escape!`)...
+
+I was pretty much out of ideas so I went on the subreddit to check if my guts were right, and according to the memes[1](https://www.reddit.com/r/adventofcode/comments/18di483/2023_day_8/)[2](https://www.reddit.com/r/adventofcode/comments/18dhks8/2023_day_8_part_2_me_reading_part_2/)[3](https://www.reddit.com/r/adventofcode/comments/18dg2v6/2023_day_8_if_i_learned_anything/) it was. I was spoiled about the solution (computing the least common denominator), so I implemented it. I was not very convinced it would work because I did not see why the paths patterns would be cyclic.
+
+Been reading [this (a guy asking the same question)](https://www.reddit.com/r/adventofcode/comments/18dg1hw/2023_day_8_part_2_about_the_correctness_of_a/), and while looking at [this guy's visualization](https://www.reddit.com/r/adventofcode/comments/18did3d/2023_day_8_part_1_my_input_maze_plotted_using/), I figured out I completely missed the point here. I guess the challenge was about solving the puzzle, that means finding what algorithm to use to complete the challenge. And for that, inspecting the data would be the starting point, which I completely skipped because [I was late](#day-7).
+
+Tomorrow is Saturday, I have no excuse.
