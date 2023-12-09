@@ -81,3 +81,15 @@ I was pretty much out of ideas so I went on the subreddit to check if my guts we
 Been reading [this (a guy asking the same question)](https://www.reddit.com/r/adventofcode/comments/18dg1hw/2023_day_8_part_2_about_the_correctness_of_a/), and while looking at [this guy's visualization](https://www.reddit.com/r/adventofcode/comments/18did3d/2023_day_8_part_1_my_input_maze_plotted_using/), I figured out I completely missed the point here. I guess the challenge was about solving the puzzle, that means finding what algorithm to use to complete the challenge. And for that, inspecting the data would be the starting point, which I completely skipped because [I was late](#day-7).
 
 Tomorrow is Saturday, I have no excuse.
+
+## Day 9
+
+I may be over-excited about this but I'm glad I was able to understand how things work for step 2.
+By reversing the order of the sequence and running the same algorithm, we can compute the antecedent of the sequence.
+
+Because it's Saturday I was afraid the challenge would be super hard, and it was very accessible. It also feels good, it makes me start my day happy.
+
+I find it easier and easier to write tests (the examples help a lot, ngl), which I'm happy about. `step1()` and `step2()` could be documented just a
+little, because the code can be hard to understand at first glance, but I think it's fine like that.
+
+Looking forward for tomorrow!
