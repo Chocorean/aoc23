@@ -104,3 +104,7 @@ The way I modeled the grid sucks: a cell doesn't know its own position - so it d
 On the bright side, I will from now work my model on paper before going straight to coding, in hopes that I can spot misconceptions before writing them. I like writing tests for small units of code so I'll keep doing it. And that is also ten days of AoC in a row.
 
 I wish I will redo this exercise in the future, well rested, and see if I can make what I had in mind at first.
+
+## Day 11
+
+I read the problem before going to bed, and waited to be awake this morning to give it a shot. Today was fairly easy, I was expecting part 2 to be some sort of path finding algorithm, but it was more about geometry. For once, I solve the problem in a way that was super easy to adapt for step 2.
