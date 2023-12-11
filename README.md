@@ -76,7 +76,7 @@ Step 1 was fun and easy, and I'm glad I was able to correctly use lifetimes for 
 
 Step 2 seems not that bad... And I was wrong again. After implementing my first solution, I understood it's one of these problems where you have to be smart, because the number of iterations is way to high. The problem statement was also suggesting it (`It's going to take significantly more steps to escape!`)...
 
-I was pretty much out of ideas so I went on the subreddit to check if my guts were right, and according to the memes[1](https://www.reddit.com/r/adventofcode/comments/18di483/2023_day_8/)[2](https://www.reddit.com/r/adventofcode/comments/18dhks8/2023_day_8_part_2_me_reading_part_2/)[3](https://www.reddit.com/r/adventofcode/comments/18dg2v6/2023_day_8_if_i_learned_anything/) it was. I was spoiled about the solution (computing the least common denominator), so I implemented it. I was not very convinced it would work because I did not see why the paths patterns would be cyclic.
+I was pretty much out of ideas so I went on the subreddit to check if my guts were right, and according to the memes[[1]](https://www.reddit.com/r/adventofcode/comments/18di483/2023_day_8/)[[2]](https://www.reddit.com/r/adventofcode/comments/18dhks8/2023_day_8_part_2_me_reading_part_2/)[[3]](https://www.reddit.com/r/adventofcode/comments/18dg2v6/2023_day_8_if_i_learned_anything/) it was. I was spoiled about the solution (computing the least common denominator), so I implemented it. I was not very convinced it would work because I did not see why the paths patterns would be cyclic.
 
 Been reading [this (a guy asking the same question)](https://www.reddit.com/r/adventofcode/comments/18dg1hw/2023_day_8_part_2_about_the_correctness_of_a/), and while looking at [this guy's visualization](https://www.reddit.com/r/adventofcode/comments/18did3d/2023_day_8_part_1_my_input_maze_plotted_using/), I figured out I completely missed the point here. I guess the challenge was about solving the puzzle, that means finding what algorithm to use to complete the challenge. And for that, inspecting the data would be the starting point, which I completely skipped because [I was late](#day-7).
 
@@ -104,7 +104,10 @@ The way I modeled the grid sucks: a cell doesn't know its own position - so it d
 On the bright side, I will from now work my model on paper before going straight to coding, in hopes that I can spot misconceptions before writing them. I like writing tests for small units of code so I'll keep doing it. And that is also ten days of AoC in a row.
 
 I wish I will redo this exercise in the future, well rested, and see if I can make what I had in mind at first.
+<<<<<<< HEAD
 
 ## Day 11
 
 I read the problem before going to bed, and waited to be awake this morning to give it a shot. Today was fairly easy, I was expecting part 2 to be some sort of path finding algorithm, but it was more about geometry. For once, I solve the problem in a way that was super easy to adapt for step 2.
+=======
+>>>>>>> e5609a6975ea1c3d5b98835bddf777870cd17129
