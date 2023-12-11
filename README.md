@@ -93,3 +93,14 @@ I find it easier and easier to write tests (the examples help a lot, ngl), which
 little, because the code can be hard to understand at first glance, but I think it's fine like that.
 
 Looking forward for tomorrow!
+
+## Day 10
+
+Tonight I'm devastated. I don't know if it is because of the exhaustment or the bottomless brunch (in
+any case I should not drink that much) but day 10 was PAINFULL.
+
+The way I modeled the grid sucks: a cell doesn't know its own position - so it does not know shit about its neighbors -, I've added useful enums discribing the kind of the pipes (I'm 100% I can refactor and get rid of `Direction` too), you name it. I'm just pissed I took so long to get something working. I tried to write nice code, following the Rust way, it ended up a nightmare.
+
+On the bright side, I will from now work my model on paper before going straight to coding, in hopes that I can spot misconceptions before writing them. I like writing tests for small units of code so I'll keep doing it. And that is also ten days of AoC in a row.
+
+I wish I will redo this exercise in the future, well rested, and see if I can make what I had in mind at first.
