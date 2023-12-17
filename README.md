@@ -108,3 +108,25 @@ I wish I will redo this exercise in the future, well rested, and see if I can ma
 ## Day 11
 
 I read the problem before going to bed, and waited to be awake this morning to give it a shot. Today was fairly easy, I was expecting part 2 to be some sort of path finding algorithm, but it was more about geometry. For once, I solve the problem in a way that was super easy to adapt for step 2.
+
+## Day 12
+
+Today is... the 17th. I've been quite overwhelmed with part 1 for day 12 and I'm so late behind that I'm going to skip part 2 for now. There might be a clever way to do it but I have not even tried yet to be honest.
+
+Part 1 was already hard enough for me, and I knew while implementing it that it would struggle with larger input
+
+However, before moving on, I decided to give `rayon` a go, especially I wanted to try the `par_iter` method I've seen already a few times suggested by other people. I also wanted to benchmark the two versions, and see the performance gain of parallelizing the computation of each group.
+
+After slightly adapting and testing the code, I wrote a simple benchmark and let if run for a while. Even though I was only interested by speed, I let it
+generate a nice report with graphs and all, I'm not exactly sure how to exploit them as is, but it looks quite interesting. I feel like I would need to make more benchmarks for smaller functions to get more relevant insights of what is going on, where I can improve stuff, etc.
+
+That lets me with the following mean performance:
+
+||simple|parallel|
+|-|-----|--------|
+|**test.txt** (µs)|176.48|194.29|
+|**input.txt** (s)|2.6102|1.0980|
+
+While parallelization improves significantly the performance with larger input, it increases on average the compute time by 10% for the test input, which really emphasizes the importance of running benchmarks instead of assuming anything.
+
+PS: Before I move on, I still want to battle my solution with part 2. I quickly adapted the input to the new problem and wrote a test, started it, then went to brush my teeth, got dressed, and as I'm typing this, it is still running and probably won't complete until a while. That would be a good exercice for later I guess.
